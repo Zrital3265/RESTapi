@@ -1,6 +1,11 @@
 # RESTful api
 
 Building A REST API With Node, Express, TypeScript & MongoDB
+     
+
+## Prerequisites
+
+#### Node version 14.x
 
 ### Features:
 
@@ -24,21 +29,21 @@ To install the project, follow these steps...
 
 ### Cloning the repository:
 
-git clone https://github.com/Zrital3265/RESTapi.git
+`git clone https://github.com/Zrital3265/RESTapi.git`
 
 ### install packages:
 
-yarn install
+`yarn install`
 
 ### Setup MongoDB URL:
 
 In src/index.ts:
 
-const MONGO_URL = ''; // YOUR DB URI
+`const MONGO_URL = ''; // YOUR DB URI`
 
 ### Start the app:
 
-yarn start
+`yarn start`
 
 ### Contributing:
 
