@@ -29,21 +29,29 @@ To install the project, follow these steps...
 
 ### Cloning the repository:
 
-`git clone https://github.com/Zrital3265/RESTapi.git`
+```shell
+git clone https://github.com/Zrital3265/RESTapi.git
+```
 
 ### install packages:
 
-`yarn install`
+```shell
+yarn install
+```
 
 ### Setup MongoDB URL:
 
 In src/index.ts:
 
-`const MONGO_URL = ''; // YOUR DB URI`
+``` typescript
+const MONGO_URL = ''; // YOUR DB URI
+```
 
 ### Start the app:
 
-`yarn start`
+```shell
+yarn start
+```
 
 ### Contributing:
 
@@ -53,4 +61,3 @@ Contributions are welcome! Please follow the guidelines...
 
 This project is licensed under the [Apache License 2.0](LICENSE).
 
-----------------------------------------------------------------------------------------------------------------------------------
