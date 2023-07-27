@@ -1,5 +1,45 @@
-# RESTapi
-Creating a complete RESTapi using node.js,express.js,mongoDB and typescript with Authentication.
+# RESTful api
 
+Building A REST API With Node, Express, TypeScript & MongoDB
 
-NOTE:STARTING OUT NOT YET FINISHED ZEHAHA
+## Features:
+
+-Environment, Typescript, Nodemon setup
+-MongoDB & Mongoose connect, Database creation
+-Controllers creation
+-Middlewares creation
+-Cookie based authentication
+-Postman testing
+-Create, Read, Update
+
+## Installation
+
+To install the project, follow these steps...
+
+## Cloning the repository
+
+git clone https://github.com/Zrital3265/RESTapi.git
+
+## install packages
+
+yarn install
+
+## Setup MongoDB URL
+
+In src/index.ts:
+
+const MONGO_URL = ''; // YOUR DB URI
+
+## Start the app
+
+yarn start
+
+## Contributing
+
+Contributions are welcome! Please follow the guidelines...
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
