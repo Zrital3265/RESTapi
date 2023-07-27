@@ -2,44 +2,50 @@
 
 Building A REST API With Node, Express, TypeScript & MongoDB
 
-## Features:
+### Features:
 
 -Environment, Typescript, Nodemon setup
+
 -MongoDB & Mongoose connect, Database creation
+
 -Controllers creation
+
 -Middlewares creation
+
 -Cookie based authentication
+
 -Postman testing
+
 -Create, Read, Update
 
-## Installation
+### Installation:
 
 To install the project, follow these steps...
 
-## Cloning the repository
+### Cloning the repository:
 
 git clone https://github.com/Zrital3265/RESTapi.git
 
-## install packages
+### install packages:
 
 yarn install
 
-## Setup MongoDB URL
+### Setup MongoDB URL:
 
 In src/index.ts:
 
 const MONGO_URL = ''; // YOUR DB URI
 
-## Start the app
+### Start the app:
 
 yarn start
 
-## Contributing
+### Contributing:
 
 Contributions are welcome! Please follow the guidelines...
 
-## License
+### License:
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [Apache License 2.0](LICENSE).
 
----
+----------------------------------------------------------------------------------------------------------------------------------
