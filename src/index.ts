@@ -23,11 +23,8 @@ const server = http.createServer(app);
 server.listen(8080, () => {
   console.log("server is running on http://localhost:8080/");
 });
-const mongoDB_URL =
-  "mongodb+srv://Zrital:Database%40-32658@cluster0.mrst5e6.mongodb.net/?retryWrites=true&w=majority";
-
-// use the native JavaScript Promise object
-mongoose.Promise = Promise;
+const mongoDB_URL = // Your mongoDB uRL
+  (mongoose.Promise = Promise);
 mongoose.connect(mongoDB_URL);
 
 mongoose.connection.on("error", (error: Error) =>
