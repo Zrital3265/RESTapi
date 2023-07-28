@@ -17,7 +17,7 @@ Building A REST API With Node, Express, TypeScript & MongoDB
 
 -Middlewares creation
 
--Cookie based authentication
+-Cookies based authentication
 
 -Postman testing
 
